@@ -45,6 +45,7 @@ APPS=(
   io.element.android.x             # Element X
   io.github.sds100.keymapper       # Key Mapper
   io.github.yawnoc.strokeinput     # Stroke Input Method
+  io.heckel.ntfy                   # Ntfy
   it.fast4x.rimusic                # RiMusic
   me.zhanghai.android.files        # Material Files
   org.breezyweather                # Breezy Weather
