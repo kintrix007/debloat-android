@@ -1,0 +1,6 @@
+# Dev Env
+.direnv/
+.envrc
+
+# Outputs
+logs/
