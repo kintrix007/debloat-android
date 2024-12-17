@@ -27,7 +27,6 @@ UNINSTALL_PACKAGES=(
   com.coloros.soundrecorder          # Realme Sound Recorder
   com.coloros.systemclone
   com.coloros.video
-  # com.coloros.weather.service
   com.coloros.weather2                      # Realme Weather
   com.google.android.apps.docs              # Google Drive
   com.google.android.apps.googleassistant   # Google Assistant
@@ -60,15 +59,18 @@ DISABLE_PACKAGES=(
   com.google.android.apps.messaging # Google Messages
   # com.coloros.deepthinker
   # com.coloros.safecenter
+  com.coloros.weather.service
   com.oppo.camera                         # Camera
   com.google.android.googlequicksearchbox # Google
   # com.oppo.quicksearchbox
   com.google.mainline.telemetry           # ???
   com.google.android.gms.location.history # ???
-  # com.google.ar.lens # Google Lens
-  com.android.vending # Google Play
-
-  com.google.android.inputmethod.latin
+  com.google.ar.lens                      # Google Lens
+  com.android.vending                     # Google Play
+  com.google.android.inputmethod.latin    # Gboard
+  com.heytap.pictorial                    # Lock Screen Magazine
+  com.google.android.tts                  # Speech Recognition & Synthesis
+  com.google.android.projection.gearhead  # Android Auto
 )
 
 # com.android.phone # Do not disable!
@@ -78,15 +80,15 @@ adb devices
 
 for package in "${NUKE_PACKAGES[@]}"; do
   echo "Nuking $package..."
-  adb shell pm uninstall --user 0 "$package" || echo "Failed."
+  adb shell pm uninstall --user 0 "$package" || true
 done
 
 for package in "${UNINSTALL_PACKAGES[@]}"; do
   echo "Uninstalling $package..."
-  adb shell pm uninstall -k --user 0 "$package" || echo "Failed."
+  adb shell pm uninstall -k --user 0 "$package" || true
 done
 
 for package in "${DISABLE_PACKAGES[@]}"; do
   echo "Disabling $package..."
-  adb shell pm disable-user --user 0 "$package" || echo "Failed."
+  adb shell pm disable-user --user 0 "$package" || true
 done
