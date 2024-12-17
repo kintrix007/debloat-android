@@ -21,20 +21,20 @@ UNINSTALL_PACKAGES=(
   com.coloros.calculator      # Realme Calculator
   com.coloros.compass2        # Realme Compass
   com.coloros.filemanager     # Realme File Manager
-  com.coloros.gallery3d
-  com.coloros.gamespaceui # Realme GameSpace
+  com.coloros.gamespaceui     # Realme GameSpace
   com.coloros.phonemanager
   com.coloros.providers.downloads.ui # Realme Download UI
-  com.coloros.soundrecorder # Realme Sound Recorder
+  com.coloros.soundrecorder          # Realme Sound Recorder
   com.coloros.systemclone
   com.coloros.video
-  com.coloros.weather.service
-  com.coloros.weather2         # Realme Weather
-  com.google.android.apps.docs # Google Drive
-  com.google.android.apps.googleassistant
+  # com.coloros.weather.service
+  com.coloros.weather2                      # Realme Weather
+  com.google.android.apps.docs              # Google Drive
+  com.google.android.apps.googleassistant   # Google Assistant
   com.google.android.apps.magazines         # Google News
   com.google.android.apps.nbu.files         # Google Files
   com.google.android.apps.photos            # Google Photos
+  com.coloros.gallery3d                     # Realme Photos
   com.google.android.apps.podcasts          # Google Podcasts
   com.google.android.apps.subscriptions.red # Google One
   com.google.android.apps.tachyon           # Google Duo
@@ -48,7 +48,10 @@ UNINSTALL_PACKAGES=(
   com.google.android.videos # Google Videos
   # com.google.mainline.telemetry # ???
   # com.google.android.gms.location.history # ???
-  com.google.android.inputmethod.latin
+  com.coloros.backuprestore    # Realme Clone Phone
+  com.coloros.onekeylockscreen # Realme Lock Screen
+
+  com.coloros.uxdesign # It can break things it seems?
 )
 
 DISABLE_PACKAGES=(
@@ -57,13 +60,15 @@ DISABLE_PACKAGES=(
   com.google.android.apps.messaging # Google Messages
   # com.coloros.deepthinker
   # com.coloros.safecenter
-  com.oppo.camera
+  com.oppo.camera                         # Camera
   com.google.android.googlequicksearchbox # Google
-  com.oppo.quicksearchbox
+  # com.oppo.quicksearchbox
   com.google.mainline.telemetry           # ???
   com.google.android.gms.location.history # ???
   # com.google.ar.lens # Google Lens
   com.android.vending # Google Play
+
+  com.google.android.inputmethod.latin
 )
 
 # com.android.phone # Do not disable!
