@@ -16,11 +16,14 @@ ESSENTIALS=(
   org.fossify.calculator
   org.fossify.calendar
   org.fossify.camera
+  org.fossify.clock
   org.fossify.contacts
   org.fossify.filemanager
   org.fossify.gallery
+  org.fossify.home # Fossify Launcher
   org.fossify.messages
   org.fossify.musicplayer
+  org.fossify.notes
   org.fossify.phone
   org.fossify.voicerecorder
 )
@@ -37,6 +40,7 @@ APPS=(
   com.kin.easynotes                # Easy Notes
   com.sweak.qralarm                # QRAlarm
   com.termux                       # Termux
+  de.grobox.liberario              # Transportr
   im.vector.app                    # Element
   io.element.android.x             # Element X
   io.github.sds100.keymapper       # Key Mapper
