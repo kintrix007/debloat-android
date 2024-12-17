@@ -61,10 +61,6 @@ echo "Installing essential apps..."
 fdroidcl install "${ESSENTIALS[@]}"
 echo "Done."
 
-echo "Configuring essential settings..."
-./configure-settings.sh
-echo "Done."
-
 echo "Installing other apps..."
 fdroidcl install "${APPS[@]}"
 echo "Done."
