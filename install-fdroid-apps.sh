@@ -5,6 +5,7 @@ set -o nounset
 set -o pipefail
 
 fdroidcl repo add futo https://app.futo.org/fdroid/repo || true
+# fdroidcl repo add izzy https://apt.izzysoft.de/fdroid/repo || true
 
 fdroidcl update
 
@@ -60,6 +61,8 @@ APPS=(
   ua.syt0r.kanji.fdroid            # Kanji Dojo
   website.leifs.delta.foss         # Delta Icon Pack
   ws.xsoh.etar                     # Etar
+
+  # com.gitlab.mudlej.MjPdfReader    # MJ PDF - Only on Izzy
 )
 
 echo "Installing essential apps..."
