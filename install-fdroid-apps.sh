@@ -33,7 +33,9 @@ APPS=(
   app.organicmaps                  # Organic Maps
   ch.blinkenlights.android.vanilla # Vanilla Music
   ch.protonvpn.android             # Proton VPN
+  ch.rmy.android.statusbar_tacho   # Status Bar Speedometer
   com.amaze.filemanager            # Amaze File Manager
+  com.atharok.barcodescanner       # Barcode Scanner
   com.beemdevelopment.aegis        # Aegis Authenticator
   com.bnyro.translate              # Translate You
   com.futo.platformplayer          # GrayJay
