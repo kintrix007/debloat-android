@@ -30,44 +30,44 @@ ESSENTIALS=(
 )
 
 APPS=(
-  app.organicmaps                    # Organic Maps
-  ch.blinkenlights.android.vanilla   # Vanilla Music
-  ch.protonvpn.android               # Proton VPN
-  ch.rmy.android.statusbar_tacho     # Status Bar Speedometer
-  com.amaze.filemanager              # Amaze File Manager
-  com.atharok.barcodescanner         # Barcode Scanner
-  com.beemdevelopment.aegis          # Aegis Authenticator
-  com.best.deskclock                 # Hawdy Clock
-  com.bnyro.translate                # Translate You
-  com.futo.platformplayer            # GrayJay
-  com.ichi2.anki                     # AnkiDroid
+  app.organicmaps                      # Organic Maps
+  ch.blinkenlights.android.vanilla     # Vanilla Music
+  ch.protonvpn.android                 # Proton VPN
+  ch.rmy.android.statusbar_tacho       # Status Bar Speedometer
+  com.amaze.filemanager                # Amaze File Manager
+  com.atharok.barcodescanner           # Barcode Scanner
+  com.beemdevelopment.aegis            # Aegis Authenticator
+  com.best.deskclock                   # Hawdy Clock
+  com.bnyro.translate                  # Translate You
+  com.futo.platformplayer              # GrayJay
+  com.ichi2.anki                       # AnkiDroid
   com.jarsilio.android.scrambledeggsif # Scrambled Exif
-  com.kin.easynotes                  # Easy Notes
-  com.sweak.qralarm                  # QRAlarm
-  com.termux                         # Termux
-  de.grobox.liberario                # Transportr
-  im.vector.app                      # Element
-  io.element.android.x               # Element X
-  io.github.devhyper.openvideoeditor # Open Video Editor
-  io.github.sds100.keymapper         # Key Mapper
-  io.github.yawnoc.strokeinput       # Stroke Input Method
-  io.heckel.ntfy                     # Ntfy
-  it.fast4x.rimusic                  # RiMusic
-  me.hackerchick.catima              # Catima
-  me.zhanghai.android.files          # Material Files
-  org.breezyweather                  # Breezy Weather
-  org.futo.voiceinput                # Futo Voice Input
-  org.kde.kdeconnect_tp              # KDE Connect
-  org.koitharu.kotatsu               # Kotatsu
-  org.proninyaroslav.libretorrent    # LibreTorrent
-  org.schabi.newpipe                 # NewPipe
-  org.telegram.messenger             # Telegram
-  org.videolan.vlc                   # VLC
-  proton.android.pass.fdroid         # Proton Pass
-  ua.syt0r.kanji.fdroid              # Kanji Dojo
-  website.leifs.delta.foss           # Delta Icon Pack
-  ws.xsoh.etar                       # Etar
-  xyz.ptgms.tosdr                    # ToS;DR
+  com.kin.easynotes                    # Easy Notes
+  com.sweak.qralarm                    # QRAlarm
+  com.termux                           # Termux
+  de.grobox.liberario                  # Transportr
+  im.vector.app                        # Element
+  io.element.android.x                 # Element X
+  io.github.devhyper.openvideoeditor   # Open Video Editor
+  io.github.sds100.keymapper           # Key Mapper
+  io.github.yawnoc.strokeinput         # Stroke Input Method
+  io.heckel.ntfy                       # Ntfy
+  it.fast4x.rimusic                    # RiMusic
+  me.hackerchick.catima                # Catima
+  me.zhanghai.android.files            # Material Files
+  org.breezyweather                    # Breezy Weather
+  org.futo.voiceinput                  # Futo Voice Input
+  org.kde.kdeconnect_tp                # KDE Connect
+  org.koitharu.kotatsu                 # Kotatsu
+  org.proninyaroslav.libretorrent      # LibreTorrent
+  org.schabi.newpipe                   # NewPipe
+  org.telegram.messenger               # Telegram
+  org.videolan.vlc                     # VLC
+  proton.android.pass.fdroid           # Proton Pass
+  ua.syt0r.kanji.fdroid                # Kanji Dojo
+  website.leifs.delta.foss             # Delta Icon Pack
+  ws.xsoh.etar                         # Etar
+  xyz.ptgms.tosdr                      # ToS;DR
 
   # com.gitlab.mudlej.MjPdfReader    # MJ PDF - Only on Izzy
 )
