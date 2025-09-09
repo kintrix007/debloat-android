@@ -41,6 +41,7 @@ APPS=(
   com.bnyro.translate                # Translate You
   com.futo.platformplayer            # GrayJay
   com.ichi2.anki                     # AnkiDroid
+  com.jarsilio.android.scrambledeggsif # Scrambled Exif
   com.kin.easynotes                  # Easy Notes
   com.sweak.qralarm                  # QRAlarm
   com.termux                         # Termux
@@ -66,6 +67,7 @@ APPS=(
   ua.syt0r.kanji.fdroid              # Kanji Dojo
   website.leifs.delta.foss           # Delta Icon Pack
   ws.xsoh.etar                       # Etar
+  xyz.ptgms.tosdr                    # ToS;DR
 
   # com.gitlab.mudlej.MjPdfReader    # MJ PDF - Only on Izzy
 )
