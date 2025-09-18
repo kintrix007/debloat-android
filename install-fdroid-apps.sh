@@ -42,6 +42,7 @@ APPS=(
   com.futo.platformplayer              # GrayJay
   com.ichi2.anki                       # AnkiDroid
   com.jarsilio.android.scrambledeggsif # Scrambled Exif
+  com.jerboa                           # Jerboa for Lemmy
   com.kin.easynotes                    # Easy Notes
   com.sweak.qralarm                    # QRAlarm
   com.termux                           # Termux
